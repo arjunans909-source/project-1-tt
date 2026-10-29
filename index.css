@@ -1,0 +1,237 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  background-color: rgb(249, 245, 245);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo img {
+  height: 50px;
+  padding: 20px;
+  margin-left: 30px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.icons ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  padding: 20px;
+}
+
+i {
+  padding: 15px;
+}
+
+nav a:hover{
+  color: white;
+  background-color: black;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.icons a:hover {
+  color: white;
+  background-color: black;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.contents {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+}
+
+.contents p {
+  color: red;
+}
+
+.contents h1 {
+  font-size: 50px;
+}
+
+.contents h5 {
+  font-style: italic;
+  padding: 10px;
+}
+
+.contents button {
+  border: 2px solid black;
+  transition: all 0.3s ease;
+  padding-left: 10px;
+}
+
+button:hover {
+  color: white;
+  transform: translateX(6px) scale(1.01);
+  background-color: black;
+}
+
+.trend{
+    text-align: center;
+    padding: 10px;
+}
+
+.trend span{
+    color: red;
+}
+
+
+#article{
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0%;
+    background-color: rgb(192, 159, 164);
+}
+
+.product1{
+    height: 410px;
+    width: 300px;
+    margin: 10px;
+    margin-top: 50px;
+    transition: all 0.2s ease;
+    border: solid black;
+    border-radius: 10px;
+}
+
+.product1 img{
+  height: 300px;
+  margin-top: 10px;
+}
+.product1:hover{
+   transform: scale(1.1);
+   background-color: rgb(176, 118, 128);
+}
+.salee{
+  position: absolute;
+  background-color: green;
+  color: white;
+  padding: 5px;
+  z-index: 1;
+  margin-top: 10px;
+}
+
+.reviews{
+    margin: 50px;
+    text-align: center;
+}
+
+.reviews h1,h5,h3{
+    padding: 10px;
+}
+
+.reviews span{
+    color: red;
+}
+
+.updates{
+    background-color: rgba(113, 154, 130, 0.638);
+    padding: 25px;
+}
+.updates span{
+    color: red;
+}
+
+.new h1{
+    text-align: center;
+}
+
+.pictures{
+  display: flex;
+  margin: 25px;
+  justify-content: space-around;
+}
+
+.pic1 img{
+    width: 400px;
+}
+.pic1{
+  width:400px;
+  flex-wrap: wrap;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.pic1:hover{
+    transform: translateY(-6px) scale(1.02);
+}
+
+footer{
+    display: flex;
+    padding: 100px;
+}
+
+footer p{
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.company{
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.subscribe{
+  margin-left: 15px;
+}
+
+.Social-media-icons i{
+  transition: all 0.3 ease;
+}
+
+.Social-media-icons i:hover{
+ color: red;
+ transform: translateY(-5px) scale(1.02);
+}
+
+
+.arrow-slide{
+  position: relative;
+  left: 90%;
+  bottom: 50px;
+  border: 2px black;
+  border-radius: 47%;
+  border-style: solid;
+  width: fit-content;
+  height: fit-content;
+}
+
+.arrow-slide i{
+  font-size: 30px;
+}
+
+html,body{
+  scroll-behavior: smooth;
+}
